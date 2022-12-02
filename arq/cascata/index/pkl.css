@@ -1,0 +1,67 @@
+
+.mov1 {
+    z-index: 10;
+    width: 770px;
+    height: 540px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -930px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+    border: none;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+
+.mov1:hover {
+    margin-top: -55px;
+    padding-bottom: 35px;
+
+}
+
+.mov2 {
+    z-index: 10;
+    width: 770px;
+    height: 540px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: 165px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+    border: none;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+
+.mov2:hover {
+    margin-top: -55px;
+    padding-bottom: 35px;
+}
+
+.log1 {
+    z-index: 10;
+    width: 320px;
+    height: 130px;
+    position: absolute;
+    top: 50%;
+    margin-top: -280px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: 130px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+
+}
+
+.log2 {
+    z-index: 10;
+    width: 320px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -270px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -430px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+
+}

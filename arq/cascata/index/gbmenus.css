@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* reseta todas as configuraçoes de espaço da janela */
+
+
+html, body {
+    height: 100%; /* aqui definimos que o html e o body terão altura de 100% */
+
+}
+
+
+body {
+    background-image: url("../../img/back/overlay.png");
+}
+
+
+#conteudo {
+    min-height: 100%;
+}
+
+#cabeça {
+    position: relative;
+    width: 100%;
+    height: 110px;
+    background: #CDC9C9;
+    box-shadow: 0px 0px 28px 7px rgba(0, 0, 0, 0.68);
+}
+
+#fundo {
+    left: 50%;
+    top: 0;
+    position: absolute;
+
+
+}
+
+
+.fundo {
+
+    width: 400px;
+    height: 200px;
+    margin-left: -200px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+
+}
+
+#logo1 {
+    left: 50%;
+    top: 0;
+    position: absolute;
+
+
+}
+
+.pkl {
+    width: 400px;
+    height: 180px;
+    margin-left: -200px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+
+}
+
+
+.trans {
+    z-index: -10;
+    width: 900px; /* Tamanho da Largura da Div */
+    height: auto; /* Tamanho da Altura da Div */
+    min-height: 100%; /* aqui é onde acontece a mágica, a propriedade height:auto e min-height: 100% fará com que esta div ocupe sempre a altura total do navegador, mesmo quando redimensionado */
+    position: relative;
+    left: 50%;
+    margin-left: -450px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    top: 0;
+    bottom: 0;
+    opacity: 0.4;
+    background-color: #D3D3D3;
+
+}
+
+
+.rodape {
+    background: #1f1f1f;
+    clear: both;
+    display: block;
+    padding: 0 0 1em;
+    width: 100%;
+
+}
+
+.rodapebar {
+    clear: both;
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+    background-color: gray;
+    opacity: 0.7;
+
+}
+
+
+.rodapebar .rodapelistra {
+    float: left;
+    margin-right: 100%;
+    width: 85.49%;
+    margin-left: 7.2525%;
+    background-color: #fff;
+    height: 6px;
+    position: relative;
+
+
+}
+
+.rodapebar .rodapelistra:before,
+.rodapebar .rodapelistra:after {
+    content: '';
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    width: 12px;
+
+
+}
+
+.rodapebar .rodapelistra:before {
+    background: transparent url("../../img/ft/left.png") no-repeat;
+    left: -11px;
+
+
+}
+
+.rodapebar .rodapelistra:after {
+    background: transparent url("../../img/ft/right.png") no-repeat;
+    right: -11px;
+
+
+}
+
+
+#gba {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+
+
+}
+
+.gbal {
+    width: 900px;
+    height: 680px;
+    position: absolute;
+    top: 50%;
+    margin-top: -340px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -450px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura no caso 250 */
+
+
+}
+
+#trans2 {
+
+    width: 368px; /* Tamanho da Largura da Div */
+    height: 242px; /* Tamanho da Altura da Div */
+    position: absolute;
+    top: 50%;
+    margin-top: -121px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -184px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    background-color: #505890;
+    border-radius: 12px;
+    box-shadow: 0px 0px 28px 7px rgba(0, 0, 0, 0.68);
+
+
+}
+
+#menu1 {
+
+    margin-top: 0px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -160px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 100px;
+
+    z-index: 2;
+    background: url(../../img/index/menu1.png) no-repeat;
+    background-size: 320px 100px;
+    float: left;
+}
+
+#menu1:hover {
+    margin-top: 0px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -160px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    position: relative;
+    width: 320px;
+    height: 100px;
+
+    z-index: 2;
+    background: url(../../img/index/menu1h.png) no-repeat;
+    background-size: 320px 100px;
+    float: left;
+}
+
+#menu2 {
+    margin-top: 105px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+
+    z-index: 2;
+    background: url(../../img/index/menu2.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
+
+#menu2:hover {
+    margin-top: 105px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+    z-index: 2;
+    background: url(../../img/index/menu2h.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
+
+#menu3 {
+    margin-top: 150px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+    z-index: 2;
+    background: url(../../img/index/menu3.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
+
+#menu3:hover {
+    margin-top: 150px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+    z-index: 2;
+    background: url(../../img/index/menu3h.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
+
+#menu4 {
+    margin-top: 195px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+    z-index: 2;
+    background: url(../../img/index/menu4.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
+
+#menu4:hover {
+    margin-top: 195px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+    left: 50%;
+    margin-left: -320px; /* ou seja ele pega 50% da largura tela e diminui  metade do valor da largura */
+
+    position: relative;
+    width: 320px;
+    height: 40px;
+    z-index: 2;
+    background: url(../../img/index/menu4h.png) no-repeat;
+    background-size: 320px 40px;
+    float: left;
+
+}
